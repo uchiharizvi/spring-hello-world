@@ -17,7 +17,6 @@ public class Student {
     }
 
     public void setName(String name) {
-        this.name = name;
     }
 
     public Student(int id, String name) {
@@ -33,4 +32,5 @@ public class Student {
                 ", name='" + name + '\'' +
                 '}';
     }
+
 }
